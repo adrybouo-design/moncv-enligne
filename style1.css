@@ -1,0 +1,115 @@
+body{ 
+    background-color: beige;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal; 
+    color: purple;
+ }
+header{ 
+   height: 100px;
+}
+footer{ 
+ background-color: aqua;
+    text-align: center;
+    font-size: 40px;
+    border-top: 5px solid yellow;
+    padding-top: 30px;
+}
+nav{
+    width:100%;
+    background-color: grey;
+ }
+nav ul{ 
+ padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{ 
+display: inline-block;
+}
+nav a{ 
+    display: inline-block; 
+    padding: 20px 30px;
+    text-decoration: none; /* Enlève le soulignement */
+    text-transform: uppercase;
+    color: white; /* couleur du texte */   
+}
+.para{ 
+     display: table;
+    margin: 0px auto;
+}
+.para1:hover,.moi { 
+    background-color:  RGBa(64, 200, 130, 0.15);
+  border-top: 5px solid green;
+}
+.para2:hover { 
+    background-color: RGBa(228, 77, 38, 0.15);
+     border-top: 5px solid red;
+}
+.para3:hover,.pari { 
+   
+    background-color: RGBa(241, 211, 79, 0.15);
+     border-top: 5px solid yellow;
+}
+.para4:hover { 
+     background-color:  RGBa(000, 112, 192, 0.15);
+     border-top: 5px solid blue;
+}
+nav li:hover a {
+    padding: 15px 30px 20px 30px;
+}
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.accueil{
+    background-color: green;
+    border-top: 5px solid orange;
+}
+
+.exp {
+    background-color: yellow;
+    border-top: 5px solid red;
+}
+
+.rec {
+    background-color: orange;
+    border-top: 5px solid green;
+}
+.photo {
+    width: 150px; /* taille de la photo */
+    height: auto;
+    border-radius: 5px; /* coins arrondis optionnels */
+}
+
+.texte {
+    font-size: 16px;
+    line-height:1.5;
+}
+.im {
+   display: flex;
+    align-items: center; 
+    gap: 15px;
+}
+nav a:hover { 
+     color: black;
+}
+.item {
+    display: flex;
+    align-items: center; /* aligne verticalement */
+    margin-bottom: 20px; /* espace entre chaque bloc */
+}
+
+.item img {
+    width: 100px; /* taille de l'image */
+    height: auto;
+    margin-right: 20px; /* espace entre image et texte */
+}
